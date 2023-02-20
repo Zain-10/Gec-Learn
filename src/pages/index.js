@@ -106,7 +106,7 @@ function Home() {
                   key="new"
                   // icon={<Image src={'/assets/IconYoutube.png'} width="27px" height="25px"></Image>}
                 >
-                  <a href="https://youtube.com/c/LETSDISCUSS1">LET'S DISCUSS</a>
+                  <a href="https://youtube.com/c/LETSDISCUSS1">LET S DISCUSS</a>
                 </Dropdown.Item>
                 <Dropdown.Item
                   css={{marginTop : 10}}
