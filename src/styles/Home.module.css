@@ -1,5 +1,6 @@
 .main_container{
   display: flex;
+  height: 100dvh;
   justify-content: center;
 }
 
@@ -7,9 +8,8 @@
   min-height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 600px;
-  width: 50%;
   flex-direction: column;
 }
 

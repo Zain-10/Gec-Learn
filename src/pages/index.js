@@ -302,7 +302,12 @@ function Home() {
     return ( 
       <div className={styles.main_container}>
         <div className={styles.container}>
-          <div className={styles.heading}>gec learn</div>
+          {/* <div className={styles.heading}>gec learn</div> */}
+          <div className="absolute m-5 flex flex-col w-96">
+            <h2>GEC LEARN</h2>
+            <h3>CH MEMORIAL ONLINE LIBRARY</h3>
+          </div>
+          <Image src="/assets/main_bg.png" width="550" height="400"></Image>
           <button className={styles.button_17} onClick={handleYear}>1st YEAR</button>
           <div>Other years coming soon.....</div>
           <div className={styles.footer}>MSF GEC</div>
