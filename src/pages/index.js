@@ -18,9 +18,10 @@ function Home() {
       <div className={styles.main_container}>
         <div className={styles.container}>
           <div className="flex">
-            <div className={styles.heading_main}>YouTube Playlists</div>
+            <div className="mt-7 mr-2 text-red-600 font-extrabold text-3xl">YouTube</div>
+            <div className={styles.heading_main}>Playlists</div>
           </div>
-            <Dropdown>
+            <Dropdown >
               <Dropdown.Button shadow color="" textColor="secondary">
                 LINEAR ALGEBRA AND CALCULUS
               </Dropdown.Button>
@@ -228,7 +229,16 @@ function Home() {
             </Dropdown>
             </div>
 
-          <div className={styles.footer_main}>MSF GEC</div>
+          <div className={styles.footer_main}>
+            <div>
+              <div className="text-white flex justify-center text-sm ml-4">An initiative by :</div>
+              <div className="flex justify-center font-bold text-xl text-white ml-2 mt-1">MSF GEC</div>
+            </div>
+            <div>
+              <div className="text-white flex justify-center text-sm pr-4">Your Suggestions :</div>
+              <a href="http://wa.me/918139841238"><Image src="/assets/whatsapp.png" width="30" height="20" className="ml-9 mt-1"></Image></a>
+            </div>
+          </div>
         </div>
       </div>
     )
@@ -238,9 +248,18 @@ function Home() {
     return (
       <div className={styles.main_container}>
         <div className={styles.container}>
-          <div className={styles.heading}>gec learn</div>
+          <div className={styles.heading}>GEC_LEARN</div>
           <div> Coming soon.....</div>
-          <div className={styles.footer}>MSF GEC</div>
+          <div className={styles.footer}>
+            <div>
+              <div className="text-white flex justify-center text-sm ml-4">An initiative by :</div>
+              <div className="flex justify-center font-bold text-xl text-white ml-2 mt-1">MSF GEC</div>
+            </div>
+            <div>
+              <div className="text-white flex justify-center text-sm pr-4">Your Suggestions :</div>
+              <a href="http://wa.me/918139841238"><Image src="/assets/whatsapp.png" width="30" height="20" className="ml-9 mt-1"></Image></a>
+            </div>
+          </div>
         </div>
       </div>
     )
@@ -252,13 +271,19 @@ function Home() {
         <div className={styles.container}>
           <div className="absolute -ml-52 mt-9 font-bold text-2xl">1st Year</div>
           <div className="mt-3">
-            <Image src="/assets/bg-image.jpg" width="400" height="200" className="rounded-3xl"></Image>
+            <Image src="/assets/bg-image.jpg" width="360" height="200" className="rounded-3xl shadow-xl"></Image>
           </div>
           <button className={styles.button_17} onClick={() => setSem(true)}>1st SEM</button>
           <button className={styles.button_17} onClick={() => setSem2(true)}>2nd SEM</button>
           <div className={styles.footer}>
-            <div className="text-white flex justify-center text-sm">An initiative by :</div>
-            <div className="flex justify-center font-bold text-xl text-white ">MSF GEC</div>
+            <div>
+              <div className="text-white flex justify-center text-sm ml-4">An initiative by :</div>
+              <div className="flex justify-center font-bold text-xl text-white ml-2 mt-1">MSF GEC</div>
+            </div>
+            <div>
+              <div className="text-white flex justify-center text-sm pr-4">Your Suggestions :</div>
+              <a href="http://wa.me/918139841238"><Image src="/assets/whatsapp.png" width="30" height="20" className="ml-9 mt-1"></Image></a>
+            </div>
           </div>
         </div>
       </div>
@@ -268,16 +293,23 @@ function Home() {
     return ( 
       <div className={styles.main_container}>
         <div className={styles.container}>
-          <div className="absolute m-20 flex flex-col w-96">
-            <div className="font-bold text-3xl mt-4">GEC_LEARN</div>
-            <div className="font-medium text-xl mt-4">CH MEMORIAL </div><div className="font-medium text-md">ONLINE LIBRARY</div>
+          <div className="absolute mt-4 flex flex-col w-96">
+            <Image src="/assets/ch_img.png" width="60" height="40" className="ml-3"></Image>
+            <div className="font-medium text-xl ml-4 text-white">CH MEMORIAL </div><div className="font-medium text-md -mt-1 ml-4 text-white">ONLINE LIBRARY</div>
+            <div className="font-bold text-3xl ml-4 mt-2">GEC_LEARN</div>  
           </div>
           <Image src="/assets/main_bg.png" width="650" height="400"></Image>
           <button className={styles.button_17} onClick={handleYear}>1st YEAR</button>
           <div className="mt-6">Other years coming soon.....</div>
           <div className={styles.footer}>
-            <div className="text-white flex justify-center text-sm">An initiative by :</div>
-            <div className="flex justify-center font-bold text-xl text-white ">MSF GEC</div>
+            <div>
+              <div className="text-white flex justify-center text-sm ml-4">An initiative by :</div>
+              <div className="flex justify-center font-bold text-xl text-white ml-2 mt-1">MSF GEC</div>
+            </div>
+            <div>
+              <div className="text-white flex justify-center text-sm pr-4">Your Suggestions :</div>
+              <a href="http://wa.me/918139841238"><Image src="/assets/whatsapp.png" width="30" height="20" className="ml-9 mt-1"></Image></a>
+            </div>
           </div>
         </div>
       </div>

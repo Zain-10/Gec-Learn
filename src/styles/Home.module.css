@@ -92,25 +92,30 @@
 }
 
 .footer{
-  margin-top: 200px;
+  margin-top: 180px;
   width: 100%;
   background-color: rgb(19, 164, 19);
-  height: 60px;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .heading_main{
-  margin-top: 50px;
-  margin-bottom: 70px;
+  margin-top: 20px;
+  margin-bottom: 25px;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 33px;
 }
 
 .footer_main{
-  margin-top: 80px;
-  font-weight: bold;
-  font-size: 20px;
+  margin-top: 100px;
+  width: 100%;
+  background-color: rgb(19, 164, 19);
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .dropdowns{
-  margin-top: 10px;
+  
 }
